@@ -15,7 +15,7 @@ const getData = function (address) {
 };
 
 // Obtendo os dados
-const dados = getData("../data/dados.json");
+const dados = getData("../assets/dados.json");
 
 // Filtrando os dias com faturamento positivo > 0
 const diasComFaturamento = dados.filter((dia) => dia.valor > 0);
